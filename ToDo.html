@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="wrapper">
+        <div class="header">
+          <div class="details">
+            <div class="date_and_tasks">
+              <div class="date">Saturday,June 1</div>
+              <div class="active_tasks js-active_tasks"></div>
+            </div>
+          </div>
+          <div class="links">
+            <a href="#Incompelete" class="incomelete">Incompelete Tasks</a>
+            <a href="#compeleted" class="compeleted">compeleted Tasks</a>
+          </div>
+          <div class="icon">
+            <img class="icon_img" src="icons/menu_.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper">
+        <div class="inputs">
+          <input
+            class="task_input js-task_input"
+            type="text"
+            placeholder="Enter a Task..."
+            
+          />
+          <button class="add_btn">Add Task</button>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="list js-list"></div>
+      </div>
+    </main>
+    <div class="conta">
+      <div class="sideBar">
+        <a href="#" class="incomelete">Incompelete Tasks</a>
+        <a href="#" class="compeleted">compeleted Tasks</a>
+      </div>
+      <div class="out"></div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
